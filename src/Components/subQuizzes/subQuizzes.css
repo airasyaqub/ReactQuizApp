@@ -1,0 +1,26 @@
+.centerChild{
+  display: flex !important;
+  justify-content: center;
+}
+
+@media screen and (max-width:767px){
+  .centerChild{
+    margin-bottom: 1em;
+  }
+}
+
+.quizSubClasses .spinner{
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+
+.quizSubClasses .ant-card-body p{
+  font-weight: 500;
+}
+
+.enterQuizBtn{
+  display:block !important; 
+  margin-top:1em !important;
+}

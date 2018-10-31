@@ -1,0 +1,10 @@
+.centerChild{
+  display: flex !important;
+  justify-content: center;
+}
+
+@media screen and (max-width:767px){
+  .centerChild{
+    margin-bottom: 1em;
+  }
+}
